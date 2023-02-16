@@ -1,0 +1,47 @@
+ main ul {
+  display: flex;
+ justify-content: space-between;
+} 
+
+nav {
+  
+}
+
+li {
+   width: 200;
+   height: 70;
+   background-color: gray;
+}
+
+article {
+   float: right;
+   height: 480px;
+
+}
+
+p { 
+height:  300px;
+width:  500px;
+overflow: auto;    /* ……scrollable property in textbox */
+
+}
+
+/*   hover with transition, start  */
+button {
+transition: 1000ms;
+}
+
+button:hover {
+background-color: green;
+color: white;
+font-family: cursive;
+font: message-box;
+}
+
+/* hover with transition, end  */
+
+footer {
+background-color:  black;
+height:   20 px;
+width:fit-content;
+}
